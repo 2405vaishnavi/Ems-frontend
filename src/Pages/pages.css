@@ -1,0 +1,59 @@
+.cont-add{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-add{
+    height: 40vmax;
+    width: 35vmax;
+    background-color: white;
+    padding: 20PX;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+
+.card-add h1{
+    font-weight: 700;
+    margin: 20px;
+    text-align: center;
+    text-shadow: 
+        0 0 1px black, 
+        0 0 1px black, 
+        0 0 1px black; 
+}
+
+.form-group{
+    margin: 20px;
+}
+
+.add-btn{
+    width: 5.5vmax;
+    height: 3vmax;
+    margin-top: 10px;
+    background-color: #00CED1;
+    border-radius: 10px;
+    margin-left: 120px;
+    border-color: white;
+}
+
+.add-btn:hover{
+    background-color:#4682B4;
+    border-color: white;
+    color: white;
+}
+
+.return{
+    width: 10.5vmax;
+    height: 3vmax;
+    background-color:#FF7F50;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border-color: white;
+}
+
+.return:hover{
+    background-color: #ea5841;
+    color: white;
+    border-color: white;
+}

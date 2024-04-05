@@ -1,0 +1,61 @@
+nav {
+  background: linear-gradient(120deg, #fce1e5, #ffd3c4, #ffc2a7);
+  padding: 10px 0;
+  height: 6vmax;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    margin-top: .5vmax;
+    align-items: center;
+    display: flex;
+    list-style: none; 
+  }
+  
+  nav li {
+    margin-right: 30px;
+    font-family: 'Roboto';
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 1.1vmax;
+    font-weight: 500;
+    color: black;
+  }
+  
+  nav a:hover {
+    color: blue;
+  }
+
+  .logo{
+    height: 4vmax;
+    width: 4vmax;
+    margin-left: 5rem;
+    margin-right: 17rem;
+    border-radius: 50%;
+    border: 2px solid black; 
+  }
+  a .login-btn {
+    margin-left: 22vmax;
+    height: 3.5vmax;
+    width: 7vmax;
+    background: linear-gradient(120deg, #FFA500, #FF7F50, #FF1493);
+    border: none;
+    border-radius: 30px; 
+    text-align: center; 
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.5vmax;
+    font-weight: 500;
+    cursor: pointer;
+ transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.login-btn:hover {
+  background: linear-gradient(120deg, #2196F3, #00BFFF, #1E90FF); 
+}
+
+
+  

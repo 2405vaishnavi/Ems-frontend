@@ -1,0 +1,55 @@
+.add-emp{
+    background: linear-gradient(120deg, #FFA500, #FF7F50, #FF1493);
+    color:white;
+    margin: 20px;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.add-emp:hover{
+    transform: scale(1.1);
+}
+
+.btn-edit{
+    background-color: rgb(13, 157, 92);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.btn-edit:hover{
+    color: black;
+    background-color: rgb(107, 219, 166);
+}
+
+.btn-view{
+    background-color: #4f46b4;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.btn-view:hover{
+    color: black;
+    background-color: #9992ea;
+}
+
+.btn-del{
+    background-color:#ef622f;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.btn-del:hover{
+    color: black;
+    background-color: #eaa978;
+}
